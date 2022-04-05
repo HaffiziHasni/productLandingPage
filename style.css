@@ -1,0 +1,168 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+html{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: Linen;
+}
+
+#header-img {
+  float:left;
+  width: 90px;
+  margin-top:-12px;
+}
+/* Navbar container */
+
+
+#nav-bar {
+  overflow: hidden;
+  background-color: white;
+  position:fixed;
+  z-index:1;
+  margin:0;
+  width:100%;
+  top:0;
+  
+}
+
+/* Links inside the navbar */
+#nav-bar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a white background color to navbar links on hover */
+#nav-bar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1;
+  position:fixed;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+#video{
+  position:relative;
+  left:10%;
+  height:300px;
+  width:40%;
+  margin-top:60px;
+  /*pointer-events:none;hide the info from youtube*/
+}
+
+#why{
+  width:60%;
+}
+#why p1{
+  font-size:4em;
+  position: relative;
+  top:-4em;
+  left:16em;
+  
+}
+
+#why p2{
+  font-size:1.3em;
+  position: relative;
+  top:-13em;
+  left:53em;
+
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  
+  
+}
+
+#learn, #report, #tuition{
+  text-align: center;
+  color: white;
+  line-height: 2em;
+  width: 15em;
+  height: 15em;
+  border-radius:2px;
+  background-color:rgb(0,0,0,0.9);
+  border-radius:10px;
+}
+
+
+#products{
+ display:flex;
+ justify-content: space-around; 
+  position:relative;
+  
+  top:10em;
+  left:0em;
+  
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  
+
+}
+
+#contact{
+  width:100%;
+  position:relative;
+  top:15em;
+  text-align:center;
+  background-color:white;
+}
+
+
