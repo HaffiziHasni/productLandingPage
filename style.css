@@ -95,7 +95,11 @@ html{
   display: block;
 }
 
+#login {
+  border-radius:5px;
+  accent-color: blue;
 
+}
 #video{
   position:relative;
   left:10%;
@@ -106,7 +110,8 @@ html{
 }
 
 #why{
-  width:60%;
+  width:100%;
+  background-color:white;
 }
 #why p1{
   font-size:4em;
